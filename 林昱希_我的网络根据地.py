@@ -25,19 +25,19 @@ def page_1():
     with col1:
         st.image(imgs_lst[0])
         st.write('TFBOYS')
-        st.write('成员：凯、源、玺')
+        st.write('成员：凯、源、玺      代表作：《heart》')
     with col2:
         st.image(imgs_lst[1])
         st.write('TNT时代少年团')
-        st.write('成员：祺、鑫、轩、文、源、翔、霖')
+        st.write('成员：祺、鑫、轩、文、源、翔、霖       代表作：《爆米花》')
     with col3:
         st.image(imgs_lst[2])
         st.write('TF家族三代登陆计划')
-        st.write('成员：朱、禹、极、航、苏、豪、涵、丞、润、坤、邓、朔')
+        st.write('成员：朱、禹、极、航、苏、豪、涵、丞、润、坤、邓、朔        代表作：《等你的回答》')
     with col4:
         st.image(imgs_lst[3])
         st.write('TF家族四代练习生')
-        st.write('成员：官、熙、桂、瑞、杰、森、奇、文、博、然、宸、铭、智')
+        st.write('成员：官、熙、桂、瑞、杰、森、奇、文、博、然、宸、铭、智        《This is me》')
 
 def page_2():
     ''' 我的图片处理工具 '''
