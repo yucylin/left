@@ -33,11 +33,11 @@ def page_1():
     with col3:
         st.image(imgs_lst[2])
         st.write('TF家族三代登陆计划')
-        st.write('成员：朱、禹、极、航、苏、豪、涵、丞、润、坤、鑫、朔')
+        st.write('成员：朱、禹、极、航、苏、豪、涵、丞、润、坤、邓、朔')
     with col4:
         st.image(imgs_lst[3])
         st.write('TF家族四代练习生')
-        st.write('成员：官、熙、桂、瑞、杰、森、奇、文、博、然、宸、铭、恩')
+        st.write('成员：官、熙、桂、瑞、杰、森、奇、文、博、然、宸、铭、智')
 
 def page_2():
     ''' 我的图片处理工具 '''
