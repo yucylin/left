@@ -39,6 +39,66 @@ def page_1():
         st.write('TF家族四代练习生')
         st.write('成员：官、熙、桂、瑞、杰、森、奇、文、博、然、宸、铭、智')
 
+    # 图片处理
+    img_name_lst = ['棍.jpg', '宝.jpg', '极.jpg', '航.jpg', '铲.jpg']
+    img_lst = []
+    for i in img_name_lst:
+        img = Image.open(i)
+        img = img.resize((300, 300))
+        img_lst.append(img)
+
+    col5, col6, col7, col8, col9 = st.columns([1, 1, 1, 1, 1])
+    with col5:
+        st.image(img_lst[0])
+        st.write('朱志鑫')
+        st.write('朱志鑫：别名：朱山根，2005年11月19日出生于重庆，天蝎座，应援色：云朗环星，粉丝名：小鑫星，应援口号：社死天才朱志鑫，吹拉弹唱样样行')
+    with col6:
+        st.image(img_lst[1])
+        st.write('张泽禹')
+        st.write('张泽禹：别名：小宝，2007年4月30日出生于黑龙江哈尔滨，金牛座，应援色：茶白柏绿，粉丝名：小禹宙，应援口号：张家翩翩少年郎，泽然若光如宝藏')
+    with col7:
+        st.image(img_lst[2])
+        st.write('张极')
+        st.write('张极：别名：格里芬，2007年2月3日出生于江苏常州，水瓶座，应援色：迩迩曦桔，粉丝名：金桔，应援口号：王牌张极，登峰造极')
+    with col8:
+        st.image(img_lst[3])
+        st.write('左航')
+        st.write('左航：别名：航酱，2006年5月22日出生于重庆綦江，双子座，应援色：逐浪百川，粉丝名：right，应援口号：左肩披星唤梦醒，航程万里远飞行')
+    with col9:
+        st.image(img_lst[4])
+        st.write('苏新皓')
+        st.write('苏新皓：别名：帅帅，2007年1月12日出生于河南开封，摩羯座，应援色：山城曙光，粉丝名：信号灯，应援口号：嘉陵少年意气傲，山城曙光苏新皓')
+        
+        # 图片处理
+    img_name_lst2 = ['桂.jpg', '瑞.jpg', '奇.jpg', '文.jpg', '铭.jpg']
+    img_lst2 = []
+    for i in img_name_lst2:
+        img = Image.open(i)
+        img = img.resize((300, 300))
+        img_lst2.append(img)
+
+    col10, col11, col12, col13, col14 = st.columns([1, 1, 1, 1, 1])
+    with col10:
+        st.image(img_lst2[0])
+        st.write('张桂源')
+        st.write('张桂源：别名：张龙眼，2009年5月11日出生于重庆，金牛座，四代ACE')
+    with col11:
+        st.image(img_lst2[1])
+        st.write('张函瑞')
+        st.write('张函瑞：别名：，2009年10月18日出生于重庆，天秤座，四代主唱')
+    with col12:
+        st.image(img_lst2[2])
+        st.write('左奇函')
+        st.write('左奇函：别名：Aiden，2010年3月19日生于湖南衡阳，双鱼座，四代rap担')
+    with col13:
+        st.image(img_lst2[3])
+        st.write('杨博文')
+        st.write('杨博文：别名：，2006年5月22日出生于北京，双子座，四代主舞')
+    with col14:
+        st.image(img_lst2[4])
+        st.write('陈浚铭')
+        st.write('陈浚铭：别名：陈太帅，2012年5月17日出生于重庆，金牛座，四代门面')
+
 def page_2():
     ''' 我的图片处理工具 '''
     st.write(":clown_face:图片处理小程序:clown_face:")
